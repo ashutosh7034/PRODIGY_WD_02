@@ -21,13 +21,20 @@ JavaScript: Implementing the stopwatch functionality, including start, pause, re
 *Usage*
 
 Click the "Start" button to start the stopwatch.
+
 Click the "Stop" button to stop the stopwatch.
+
 Click the "Pause" button to pause the stopwatch.
+
 Click the "Resume" button to continue the stopwatch after pausing.
+
 Click the "Reset" button to reset the stopwatch to zero.
+
 Click the "Lap" button to record a lap time.
 
+
 License
+
 Distributed under the MIT License. See LICENSE for more information.
 
 
