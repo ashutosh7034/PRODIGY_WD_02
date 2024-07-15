@@ -4,10 +4,13 @@ This project is a simple and interactive stopwatch web application built using H
 
 Features
 Start/Stop: Start and stop the stopwatch with a single click.
+
 Pause: Pause the stopwatch to resume later.
+
 Reset: Reset the stopwatch to zero.
+
 Lap Times: Track and display lap times to measure intervals accurately.
-Technologies Used
+*Technologies Used*
 HTML: Structuring the elements of the application.
 CSS: Styling the application for a user-friendly interface.
 JavaScript: Implementing the stopwatch functionality, including start, pause, reset, and lap time tracking.
