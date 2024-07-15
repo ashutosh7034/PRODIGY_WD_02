@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stopwatch</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stopwatch-container">
+    <h1>Stopwatch</h1>
+    <div class="display">
+      <span id="hours" class="digit">00</span>
+      <span class="separator">:</span>
+      <span id="minutes" class="digit">00</span>
+      <span class="separator">:</span>
+      <span id="seconds" class="digit">00</span>
+    </div>
+    <div class="controls">
+      <button id="start-button" class="btn btn-start">Start</button>
+      <button id="pause-button" class="btn btn-pause" disabled>Pause</button>
+      <button id="reset-button" class="btn btn-reset">Reset</button>
+      <button id="lap-button" class="btn btn-lap">Lap</button>
+    </div>
+    <div class="laps">
+      <h2>Laps:</h2>
+      <ul id="lap-list"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

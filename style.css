@@ -1,0 +1,112 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  .stopwatch-container {
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .display {
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .digit {
+    font-size: 64px;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
+  .separator {
+    font-size: 64px;
+    font-weight: bold;
+    margin: 0 10px;
+    color: #666;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn {
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .btn-start {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  .btn-start:hover {
+    background-color: #3e8e41;
+  }
+  
+  .btn-pause {
+    background-color: #FFC107;
+    color: #fff;
+  }
+  
+  .btn-pause:hover {
+    background-color: #FFA07A;
+  }
+  
+  .btn-reset {
+    background-color: #E74C3C;
+    color: #fff;
+  }
+  
+  .btn-reset:hover {
+    background-color: #C0392B;
+  }
+  
+  .btn-lap {
+    background-color: #2196F3;
+    color: #fff;
+  }
+  
+  .btn-lap:hover {
+    background-color: #1A73E8;
+  }
+  
+  .laps {
+    margin-top: 20px;
+  }
+  
+  #lap-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #lap-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #lap-list li:last-child {
+    border-bottom: none;
+  }
